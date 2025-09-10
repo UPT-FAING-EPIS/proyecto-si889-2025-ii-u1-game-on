@@ -17,6 +17,7 @@ $franjas_horarias = $data['franjas_horarias'];
 
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <title>Registro de Deportista - GameOn</title>
@@ -24,6 +25,7 @@ $franjas_horarias = $data['franjas_horarias'];
     <link rel="stylesheet" href="../../Public/css/styles_registrousu.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <div class="auth-page">
         <!-- ✅ LADO IZQUIERDO CON DISEÑO MEJORADO -->
@@ -39,14 +41,8 @@ $franjas_horarias = $data['franjas_horarias'];
                     Forma parte de un movimiento que impulsa la salud, la motivación y la competencia sana.
                 </p>
             </div>
-            
-            <!-- ✅ SECCIÓN DE PATROCINADORES REUBICADA -->
-            <div class="sponsors-section">
-                <h2>Patrocinador Oficial:</h2>
-                <img src="../../Resources/logo_ipd_2.png" alt="Logo IPD">
-            </div>
         </div>
-        
+
         <!-- Lado derecho con formulario (sin cambios en la estructura) -->
         <div class="auth-container">
             <div class="form-container">
@@ -72,7 +68,7 @@ $franjas_horarias = $data['franjas_horarias'];
                             <input id="apellidos" type="text" name="apellidos" value="<?php echo htmlspecialchars($form_data['apellidos']); ?>" required>
                         </div>
                     </div>
-                    
+
                     <div class="form-row">
                         <div class="form-group">
                             <label for="email">Email *</label>
@@ -83,7 +79,7 @@ $franjas_horarias = $data['franjas_horarias'];
                             <input id="telefono" type="text" name="telefono" value="<?php echo htmlspecialchars($form_data['telefono']); ?>">
                         </div>
                     </div>
-                    
+
                     <div class="form-row">
                         <div class="form-group">
                             <label for="fecha_nacimiento">Fecha de nacimiento</label>
@@ -99,12 +95,12 @@ $franjas_horarias = $data['franjas_horarias'];
                             </select>
                         </div>
                     </div>
-                    
+
                     <div class="form-group">
                         <label for="username">Nombre de usuario *</label>
                         <input id="username" type="text" name="username" value="<?php echo htmlspecialchars($form_data['username']); ?>" required>
                     </div>
-                    
+
                     <div class="form-row">
                         <div class="form-group">
                             <label for="password">Contraseña *</label>
@@ -115,7 +111,7 @@ $franjas_horarias = $data['franjas_horarias'];
                             <input id="confirm_password" type="password" name="confirm_password" required>
                         </div>
                     </div>
-                    
+
                     <div class="form-group">
                         <button type="submit" class="btn-submit">Crear mi Cuenta</button>
                     </div>
@@ -125,4 +121,5 @@ $franjas_horarias = $data['franjas_horarias'];
         </div>
     </div>
 </body>
+
 </html>

@@ -35,7 +35,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <div class="auth-page">
         <div class="auth-image">
             <div class="welcome-content">
-                <h1>IPD - GameOn Network</h1>
+                <h1>GameOn Network</h1>
                 <p>"...Tacna juega, GameOn conecta..."</p>
             </div>
         </div>

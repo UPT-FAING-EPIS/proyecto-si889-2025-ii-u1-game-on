@@ -15,7 +15,6 @@
 <body>
     <header class="main-header">
         <div class="logo">
-            <img src="../../Resources/logo_ipd_2.png" alt="GameOn Red">
             <img src="../../Resources/logo_gameon.png" alt="GameOn Red">
         </div>
         <nav class="main-nav">

@@ -50,7 +50,6 @@ include_once 'header.php';
                 <label for="filtroOrganizador">Organizador:</label>
                 <select class="form-control" id="filtroOrganizador">
                     <option value="">Todos</option>
-                    <option value="ipd">IPD</option>
                     <option value="privado">Privados</option>
                 </select>
             </div>
