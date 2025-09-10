@@ -1,0 +1,484 @@
+/* Variables personalizadas */
+:root {
+    --primary-green: #006644;
+    --dark-green: #004d33;
+    --accent-cyan: #00bcd4;
+    --light-gray: #f8f9fa;
+    --text-dark: #212529;
+    --text-light: #ffffff;
+}
+
+/* Fuente general */
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background: var(--light-gray);
+    color: var(--text-dark);
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* Página de autenticación */
+.auth-page {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+}
+
+/* ✅ PANEL IZQUIERDO: MÁS GRANDE Y BALANCEADO */
+.auth-image {
+    width: 60%; /* ✅ AUMENTADO de 50% a 60% */
+    flex: 0 0 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+    padding: 60px; /* ✅ MÁS PADDING */
+    
+    /* Imagen de fondo con capa oscura para legibilidad */
+    background-image: 
+        linear-gradient(rgba(0, 60, 40, 0.8), rgba(0, 20, 10, 0.9)),
+        url('../../Resources/sport_background.jpg');
+    background-size: cover;
+    background-position: center;
+    color: var(--text-light);
+}
+
+/* ✅ CONTENIDO DEL LADO IZQUIERDO */
+.welcome-content {
+    text-align: center;
+    z-index: 2;
+    max-width: 500px; /* ✅ MÁS ANCHO */
+}
+
+.welcome-content h1 {
+    font-size: 3.5rem; /* ✅ MÁS GRANDE */
+    font-weight: 700;
+    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    margin-bottom: 25px;
+    line-height: 1.1;
+    background: linear-gradient(45deg, var(--text-light), #00ff84);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.welcome-content p {
+    font-size: 1.2rem; /* ✅ MÁS GRANDE */
+    line-height: 1.6;
+    color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 35px;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.features-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 35px;
+}
+
+.features-list li {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* ✅ ALINEADO A LA IZQUIERDA */
+    gap: 15px; /* ✅ MÁS ESPACIO */
+    margin-bottom: 20px; /* ✅ MÁS ESPACIO */
+    font-size: 1.1rem; /* ✅ MÁS GRANDE */
+    color: rgba(255, 255, 255, 0.9);
+    text-align: left;
+}
+
+.features-list i {
+    color: #00ff84;
+    font-size: 1.4rem; /* ✅ MÁS GRANDE */
+    width: 20px;
+    flex-shrink: 0;
+}
+
+/* ✅ PANEL DERECHO: MÁS COMPACTO */
+.auth-container {
+    width: 40%; /* ✅ REDUCIDO de 50% a 40% */
+    flex: 0 0 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px; /* ✅ MENOS PADDING */
+    box-sizing: border-box;
+    background: #ffffff;
+    position: relative;
+    box-shadow: -10px 0 30px rgba(0, 0, 0, 0.1);
+    max-height: 100vh;
+    overflow-y: auto;
+}
+
+/* Elemento decorativo */
+.auth-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(135deg, var(--accent-cyan), #00ff84);
+    clip-path: polygon(0 0, 100% 0, 100% 100%);
+    opacity: 0.1;
+}
+
+/* ✅ HEADER MÁS COMPACTO */
+.auth-header {
+    text-align: center;
+    margin-bottom: 25px; /* ✅ MENOS MARGEN */
+}
+
+.auth-header img {
+    width: 280px; /* ✅ MÁS PEQUEÑO */
+    height: auto;
+    margin-bottom: 15px; /* ✅ MENOS MARGEN */
+    filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.1));
+}
+
+.auth-header h2 {
+    margin-bottom: 5px; /* ✅ MENOS MARGEN */
+    font-weight: 700;
+    font-size: 1.8rem; /* ✅ MÁS PEQUEÑO */
+    background: linear-gradient(45deg, var(--primary-green), var(--accent-cyan));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.auth-header p {
+    margin-bottom: 20px; /* ✅ MENOS MARGEN */
+    color: #666;
+    font-size: 0.9rem; /* ✅ MÁS PEQUEÑO */
+}
+
+/* ✅ FORMULARIO MÁS COMPACTO */
+.auth-body .form-group {
+    margin-bottom: 18px; /* ✅ MENOS MARGEN */
+    position: relative;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 6px; /* ✅ MENOS MARGEN */
+    color: var(--text-dark);
+    font-weight: 600;
+    font-size: 0.85rem; /* ✅ MÁS PEQUEÑO */
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.form-group label i {
+    color: var(--accent-cyan);
+    width: 14px;
+}
+
+/* ✅ INPUTS MODERNOS */
+.form-control {
+    width: 100%;
+    padding: 12px 16px; /* ✅ MENOS PADDING */
+    border: 2px solid #e1e5e9;
+    border-radius: 10px; /* ✅ MÁS PEQUEÑO */
+    font-size: 0.9rem; /* ✅ MÁS PEQUEÑO */
+    transition: all 0.3s ease;
+    background: #fafbfc;
+    color: var(--text-dark);
+    box-sizing: border-box;
+}
+
+.form-control:focus {
+    outline: none;
+    border-color: var(--accent-cyan);
+    background: var(--text-light);
+    box-shadow: 0 0 0 3px rgba(0, 188, 212, 0.1);
+    transform: translateY(-1px);
+}
+
+.form-control::placeholder {
+    color: #9ca3af;
+    font-weight: 400;
+    font-size: 0.85rem;
+}
+
+/* ✅ CAMPO DE CONTRASEÑA */
+.password-field {
+    position: relative;
+}
+
+.toggle-password {
+    position: absolute;
+    right: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #666;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+    z-index: 10;
+}
+
+.toggle-password:hover {
+    color: var(--accent-cyan);
+}
+
+/* ✅ SELECTOR DE USUARIO MÁS COMPACTO */
+.user-type-selector {
+    display: flex;
+    gap: 12px;
+    margin-top: 8px;
+}
+
+.form-check {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px; /* ✅ MENOS PADDING */
+    border: 2px solid #e1e5e9;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background: #fafbfc;
+    position: relative;
+    overflow: hidden;
+}
+
+.form-check::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(0, 188, 212, 0.1), transparent);
+    transition: left 0.5s ease;
+}
+
+.form-check:hover::before {
+    left: 100%;
+}
+
+.form-check:hover {
+    border-color: var(--accent-cyan);
+    transform: translateY(-1px);
+    box-shadow: 0 3px 10px rgba(0, 188, 212, 0.15);
+}
+
+.form-check.selected {
+    border-color: var(--accent-cyan);
+    background: linear-gradient(135deg, 
+        rgba(0, 188, 212, 0.1), 
+        rgba(0, 255, 132, 0.05)
+    );
+    box-shadow: 0 3px 12px rgba(0, 188, 212, 0.2);
+}
+
+.form-check input[type="radio"] {
+    display: none;
+}
+
+.form-check label {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-weight: 600;
+    font-size: 0.8rem; /* ✅ MÁS PEQUEÑO */
+    color: var(--text-dark);
+    cursor: pointer;
+    margin: 0;
+}
+
+.form-check i {
+    font-size: 1rem;
+    color: var(--accent-cyan);
+}
+
+/* ✅ CHECKBOX REMEMBER ME */
+.form-check input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+    margin-right: 6px;
+    accent-color: var(--accent-cyan);
+}
+
+/* ✅ BOTÓN MÁS COMPACTO */
+.btn {
+    padding: 14px 20px; /* ✅ MENOS PADDING */
+    border: none;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 0.9rem; /* ✅ MÁS PEQUEÑO */
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+    transition: left 0.5s ease;
+}
+
+.btn:hover::before {
+    left: 100%;
+}
+
+.btn-primary {
+    background: linear-gradient(135deg, var(--primary-green), var(--accent-cyan));
+    color: var(--text-light);
+    box-shadow: 0 4px 15px rgba(0, 102, 68, 0.3);
+}
+
+.btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0, 102, 68, 0.4);
+}
+
+.btn-primary:active {
+    transform: translateY(0);
+}
+
+.btn-block {
+    width: 100%;
+}
+
+/* ✅ MENSAJES DE ERROR */
+.alert-danger {
+    color: #dc3545;
+    background: linear-gradient(135deg, #ffebee, #fce4e4);
+    padding: 12px 16px; /* ✅ MENOS PADDING */
+    margin-bottom: 18px;
+    border-radius: 10px;
+    border: 1px solid #f5c6cb;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: 500;
+    font-size: 0.85rem;
+    animation: slideInDown 0.3s ease;
+}
+
+@keyframes slideInDown {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* ✅ ENLACES */
+.forgot-password {
+    margin-top: 15px; /* ✅ MENOS MARGEN */
+    text-align: center;
+}
+
+.forgot-password a,
+.auth-footer a {
+    color: var(--accent-cyan);
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 0.85rem; /* ✅ MÁS PEQUEÑO */
+}
+
+.forgot-password a:hover,
+.auth-footer a:hover {
+    color: var(--primary-green);
+    transform: translateY(-1px);
+}
+
+.auth-footer {
+    margin-top: 20px; /* ✅ MENOS MARGEN */
+    text-align: center;
+    color: #666;
+    font-size: 0.8rem; /* ✅ MÁS PEQUEÑO */
+    line-height: 1.5;
+}
+
+/* ✅ RESPONSIVE MEJORADO */
+@media (max-width: 1024px) {
+    .auth-page {
+        flex-direction: column;
+        overflow: auto;
+        height: auto;
+        min-height: 100vh;
+    }
+    
+    .auth-image,
+    .auth-container {
+        width: 100%;
+        flex: none;
+    }
+    
+    .auth-image {
+        height: 350px;
+        padding: 40px;
+        width: 60%;
+    }
+    
+    .welcome-content {
+        max-width: 100%;
+    }
+    
+    .welcome-content h1 {
+        font-size: 2.8rem;
+    }
+    
+    .auth-container {
+        padding: 30px 25px;
+        width: 40%;
+    }
+    
+    .features-list li {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .auth-image,
+    .auth-container {
+        width: 100% !important;
+    }
+    
+    .auth-image {
+        height: 300px;
+        padding: 30px;
+    }
+    
+    .user-type-selector {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .auth-header img {
+        width: 240px;
+    }
+    
+    .auth-header h2 {
+        font-size: 1.6rem;
+    }
+    
+    .welcome-content h1 {
+        font-size: 2.2rem;
+    }
+}
+
+.text-center {
+    text-align: center;
+}
