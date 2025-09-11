@@ -1,12 +1,12 @@
+**![C:\\Users\\EPIS\\Documents\\upt.png][image1]**
+
 **UNIVERSIDAD PRIVADA DE TACNA**
 
 **FACULTAD DE INGENIERÍA**
 
 **Escuela Profesional de Ingeniería de Sistemas**
 
-**Proyecto “Sistema de recomendaciones de**
-
-**Instalaciones Deportivas con Geolocalización”**
+**Proyecto “Sistema de recomendaciones de Instalaciones Deportivas con Geolocalización”**
 
 Curso: Patrones de Software
 
@@ -14,1318 +14,367 @@ Docente: Mag. Patrick Cuadros Quiroga
 
 Integrantes:
 
+***[SEBASTIAN NICOLAS FUENTES AVALOS](mailto:sf2022073902@virtual.upt.pe)		(2022073902)***  
+***[GABRIELA LUZKALID GUTIERREZ MAMANI](mailto:gg2022074263@virtual.upt.pe) 	(2022074263)***  
+***[MAYRA FERNANDA CHIRE RAMOS](mailto:mc2021072620@virtual.upt.pe)			(2021072620)***  
+***[CESAR NIKOLAS CAMAC MELENDEZ](mailto:cc2022074262@virtual.upt.pe)		(2022074262)***
 
-### SEBASTIAN NICOLAS FUENTES AVALOS (2022073902)
-### GABRIELA LUZKALID GUTIERREZ MAMANI (2022074263)
-### MAYRA FERNANDA CHIRE RAMOS (2021072620)
-### CESAR NIKOLAS CAMAC MELENDEZ (2022074262)
+**Tacna – Perú**  
+***2025***
 
-**Tacna – Perú**
+**Proyecto**
 
+***“Sistema de recomendaciones de Instalaciones Deportivas con Geolocalización”***
 
-# Proyecto
+**Presentado por:**
 
-# “Sistema de recomendaciones de Instalaciones
+***SEBASTIAN NICOLAS FUENTES AVALOS***  
+***GABRIELA LUZKALID GUTIERREZ MAMANI***  
+***MAYRA FERNANDA CHIRE RAMOS***  
+***CESAR NIKOLAS CAMAC MELENDEZ***
 
-# Deportivas con Geolocalización”
+**ÍNDICE GENERAL**
 
-```
-Presentado por:
-```
-##### SEBASTIAN NICOLAS FUENTES AVALOS
+**[INTRODUCCIÓN	4](#heading=)**
 
-##### GABRIELA LUZKALID GUTIERREZ MAMANI
+[I. Antecedentes](#antecedentes)
 
-##### MAYRA FERNANDA CHIRE RAMOS
+[II](#título). [Título](#antecedentes)
 
-##### CESAR NIKOLAS CAMAC MELENDEZ
+[III](#título). Autores	[5](#antecedentes)
 
+[IV. PLANTEAMIENTO DEL PROBLEMA	7](#título)
 
-## ÍNDICE GENERAL
+[A. Problema	7](#problema)
 
-I. Antecedentes
+[B. Justificación	8](#justificación)
 
-- INTRODUCCIÓN
-   - III. Autores II. Título
-   - IV. PLANTEAMIENTO DEL PROBLEMA
-      - A. Problema
-      - B. Justificación
-      - C. Alcance
-   - III. OBJETIVOS
-      - A. GENERAL:
-      - B. ESPECÍFICOS:
-   - IV. Marco Teórico
-   - V. Desarrollo de la Solución
-      - A. Análisis de Factibilidad (técnico, económica, operativa, social, legal, ambiental)
-      - B. Tecnología de Desarrollo
-      - C. Metodología de implementación(Documento de VISIÓN, SRS, SAD)
-   - VI. Cronograma
-   - VII. Presupuesto
-   - VIII. Conclusiones
-   - Recomendaciones
-   - Bibliografía(REFERENCIAS)
-   - Anexos
+[C. Alcance	9](#alcance)
 
+[III. OBJETIVOS	9](#objetivos)
 
-## INTRODUCCIÓN
+[A. GENERAL:	9](#general:)
 
-GameOn Network, una plataforma digital integral diseñada para transformar el
+[B. ESPECÍFICOS:	10](#específicos:)
 
-ecosistema deportivo amateur en Tacna, Perú. El objetivo fundamental de este
+[IV. Marco Teórico	10](#marco-teórico)
 
-proyecto es centralizar la información sobre instalaciones deportivas, optimizar el
+[V. Desarrollo de la Solución	13](#desarrollo-de-la-solución)
 
-proceso de reservas y facilitar la organización de actividades deportivas, conectando
+[A. Análisis de Factibilidad (técnico, económica, operativa, social, legal, ambiental)	13](#análisis-de-factibilidad-\(técnico,-económica,-operativa,-social,-legal,-ambiental\))
 
-a deportistas amateurs, administradores de espacios y entidades reguladoras a
+[B. Tecnología de Desarrollo	13](#tecnología-de-desarrollo)
 
-través de herramientas tecnológicas modernas.
+[C. Metodología de implementación(Documento de VISIÓN, SRS, SAD)	14](#metodología-de-implementación\(documento-de-visión,-srs,-sad\))
 
-El desarrollo de GameOn Network responde a una problemática real identificada en
+[VI. Cronograma	14](#cronograma)
 
-la región: la falta de acceso a información actualizada, la carencia de sistemas de
+[VII. Presupuesto	15](#presupuesto)
 
-reserva eficientes y la débil organización entre los distintos actores del deporte local.
+[VIII. Conclusiones	16](#conclusiones)
 
-Para abordar estos retos, la plataforma integra funcionalidades como la
+[Recomendaciones	17](#recomendaciones)
 
-geolocalización, la gestión en línea de instalaciones, la organización de torneos, la
+[Bibliografía(REFERENCIAS)	17](#bibliografía\(referencias\))
 
-formación de comunidades deportivas y un robusto sistema de análisis y reportes,
+[Anexos	18](#anexos)
 
-todo en un entorno web accesible y seguro.
+**INTRODUCCIÓN**
 
-En su planteamiento, el proyecto incorpora criterios de viabilidad económica,
+GameOn Network, una plataforma digital integral diseñada para transformar el ecosistema deportivo amateur en Tacna, Perú. El objetivo fundamental de este proyecto es centralizar la información sobre instalaciones deportivas, optimizar el proceso de reservas y facilitar la organización de actividades deportivas, conectando a deportistas amateurs, administradores de espacios y entidades reguladoras a través de herramientas tecnológicas modernas.
 
-sostenibilidad y alineamiento con los Objetivos de Desarrollo Sostenible (ODS),
+El desarrollo de GameOn Network responde a una problemática real identificada en la región: la falta de acceso a información actualizada, la carencia de sistemas de reserva eficientes y la débil organización entre los distintos actores del deporte local. Para abordar estos retos, la plataforma integra funcionalidades como la geolocalización, la gestión en línea de instalaciones, la organización de torneos, la formación de comunidades deportivas y un robusto sistema de análisis y reportes, todo en un entorno web accesible y seguro.
 
-además de cumplir con los marcos regulatorios peruanos en protección de datos
+En su planteamiento, el proyecto incorpora criterios de viabilidad económica, sostenibilidad y alineamiento con los Objetivos de Desarrollo Sostenible (ODS), además de cumplir con los marcos regulatorios peruanos en protección de datos personales y transacciones digitales. GameOn Network se posiciona como una solución pionera en la digitalización del deporte local, generando valor tanto para los usuarios finales como para los gestores de instalaciones y autoridades.
 
-personales y transacciones digitales. GameOn Network se posiciona como una
+A lo largo de este documento se detallan los objetivos, alcance, actores involucrados, necesidades de los usuarios, características técnicas y funcionales, estándares de calidad y seguridad, así como los indicadores económicos y legales que sustentan la factibilidad y el impacto positivo del proyecto. Así, GameOn Network se presenta no solo como una herramienta práctica, sino como un modelo escalable con potencial para replicarse en otras regiones y contribuir significativamente al desarrollo deportivo y social.
 
-solución pionera en la digitalización del deporte local, generando valor tanto para los
+1. **Antecedentes**
 
-usuarios finales como para los gestores de instalaciones y autoridades.
+Gutierrez Onofrio (2022) desarrolló el estudio titulado Sistema web para mejorar el proceso de reservas de canchas deportivas en la empresa El Encuentro S.A.C., La Convención 2022\. El objetivo fue desarrollar un sistema web para mejorar el proceso de reservas de canchas deportivas en dicha empresa. La metodología fue de tipo aplicada, con enfoque cuantitativo y diseño experimental puro, utilizando una muestra de 30 procesos de reserva distribuidos en un grupo de control y un grupo experimental; los datos fueron recolectados mediante observación directa e instrumentos como cronómetros, y analizados con estadística descriptiva e inferencial (prueba t de Student y U de Mann-Whitney) mediante el software Minitab, evidenciando que el sistema redujo significativamente el tiempo de registro de reservas (de 339.7 a 74.3 segundos) y mejoró la percepción de facilidad del proceso (87% calificó como fácil o muy fácil). Se concluye que la implementación del sistema web no solo optimizó el tiempo del proceso de reservas, sino que también mejoró considerablemente la experiencia de los usuarios al facilitar su uso.
 
-A lo largo de este documento se detallan los objetivos, alcance, actores involucrados,
+Henríquez-Miranda et al. (2025) investigó el estado actual de los sistemas de recomendación en el sector inmobiliario, identificando que estos se han consolidado como herramientas fundamentales para la toma de decisiones en contextos con sobrecarga informativa. Empleando la metodología PRISMA (Ítems de informe preferidos para revisiones sistemáticas y metaanálisis), los autores analizaron y filtraron artículos científicos relevantes, seleccionando finalmente 16 estudios directamente relacionados con sistemas de recomendación inmobiliaria. Los resultados revelaron que el filtrado basado en contenido, el filtrado colaborativo, los sistemas basados en conocimiento y los enfoques híbridos constituyen las principales técnicas utilizadas en este campo, con el precio, número de habitaciones, tamaño y ubicación como las características más empleadas en estos sistemas. Henríquez-Miranda et al. (2025) concluyeron que, a pesar de los avances existentes, persisten desafíos significativos como el problema del arranque en frío y la interacción limitada con el usuario, identificando además una tendencia creciente hacia la implementación de técnicas avanzadas de aprendizaje automático, particularmente modelos de aprendizaje profundo. Estos hallazgos proporcionan valiosas perspectivas para el desarrollo de sistemas de recomendación en otros sectores, como el deportivo, permitiendo comprender las metodologías más efectivas para mejorar la interacción entre usuarios y servicios digitales en entornos caracterizados por la abundancia de opciones y variables.
 
-necesidades de los usuarios, características técnicas y funcionales, estándares de
+El proyecto desarrollado por Díaz Milian (2012) consistió en el desarrollo de un sistema de gestión de reservas para instalaciones deportivas, con el objetivo de facilitar a los usuarios la consulta de disponibilidad y la realización de reservas desde dispositivos móviles y aplicaciones web. Utilizando ASP.NET para la aplicación web y Windows Phone para la aplicación móvil, el sistema implementó un servicio web para conectar ambas plataformas, permitiendo un acceso eficiente y rápido. Los resultados mostraron una mejora significativa en la ocupación de las instalaciones deportivas, ya que el sistema facilitó el proceso de reserva y proporcionó una mayor comodidad a los usuarios. El proyecto también abrió la posibilidad de futuras ampliaciones, como la integración de publicidad y la gestión de múltiples complejos deportivos.
 
-calidad y seguridad, así como los indicadores económicos y legales que sustentan la
+Núñez Valdéz,(2012), en su tesis “Sistemas de Recomendación de Contenidos para Libros Inteligentes”, propone una arquitectura para una plataforma de recomendación de contenidos basada en las acciones y comportamientos de los usuarios en una comunidad de lectores en la Web. El objetivo principal fue facilitar el descubrimiento de contenidos de interés mediante recomendaciones automáticas, reduciendo la sobrecarga de información digital. Utilizando una metodología basada en la recolección de parámetros implícitos como el tiempo de visualización, visitas recurrentes y comentarios, el estudio comparó estos datos con valoraciones explícitas. Entre las conclusiones más relevantes, se destaca que a mayor tiempo de visualización, mayor es la valoración del contenido, lo que evidencia una relación directa entre comportamiento e interés. Asimismo, se observó que los contenidos comentados suelen recibir más comentarios, y que los usuarios solo recomiendan aquellos que les parecen verdaderamente interesantes. Estos hallazgos refuerzan la eficacia de sistemas de recomendación que prioricen el análisis de comportamiento sobre métodos invasivos de retroalimentación.
 
-factibilidad y el impacto positivo del proyecto. Así, GameOn Network se presenta no
-
-solo como una herramienta práctica, sino como un modelo escalable con potencial
-
-para replicarse en otras regiones y contribuir significativamente al desarrollo
-
-deportivo y social.
-
-
-```
-I. Antecedentes
-```
-```
-Gutierrez Onofrio (2022) desarrolló el estudio titulado Sistema web para
-```
-mejorar el proceso de reservas de canchas deportivas en la empresa El Encuentro
-
-S.A.C., La Convención 2022. El objetivo fue desarrollar un sistema web para mejorar
-
-el proceso de reservas de canchas deportivas en dicha empresa. La metodología fue
-
-de tipo aplicada, con enfoque cuantitativo y diseño experimental puro, utilizando una
-
-muestra de 30 procesos de reserva distribuidos en un grupo de control y un grupo
-
-experimental; los datos fueron recolectados mediante observación directa e
-
-instrumentos como cronómetros, y analizados con estadística descriptiva e
-
-inferencial (prueba t de Student y U de Mann-Whitney) mediante el software Minitab,
-
-evidenciando que el sistema redujo significativamente el tiempo de registro de
-
-reservas (de 339.7 a 74.3 segundos) y mejoró la percepción de facilidad del proceso
-
-(87% calificó como fácil o muy fácil). Se concluye que la implementación del sistema
-
-web no solo optimizó el tiempo del proceso de reservas, sino que también mejoró
-
-considerablemente la experiencia de los usuarios al facilitar su uso.
-
-```
-Henríquez-Miranda et al. (2025) investigó el estado actual de los sistemas de
-```
-recomendación en el sector inmobiliario, identificando que estos se han consolidado
-
-como herramientas fundamentales para la toma de decisiones en contextos con
-
-sobrecarga informativa. Empleando la metodología PRISMA (Ítems de informe
-
-preferidos para revisiones sistemáticas y metaanálisis), los autores analizaron y
-
-filtraron artículos científicos relevantes, seleccionando finalmente 16 estudios
-
-directamente relacionados con sistemas de recomendación inmobiliaria. Los
-
-resultados revelaron que el filtrado basado en contenido, el filtrado colaborativo, los
-
-sistemas basados en conocimiento y los enfoques híbridos constituyen las
-
-principales técnicas utilizadas en este campo, con el precio, número de habitaciones,
-
-tamaño y ubicación como las características más empleadas en estos sistemas.
-
-Henríquez-Miranda et al. (2025) concluyeron que, a pesar de los avances existentes,
-
-persisten desafíos significativos como el problema del arranque en frío y la
-
-interacción limitada con el usuario, identificando además una tendencia creciente
-
-
-hacia la implementación de técnicas avanzadas de aprendizaje automático,
-
-particularmente modelos de aprendizaje profundo. Estos hallazgos proporcionan
-
-valiosas perspectivas para el desarrollo de sistemas de recomendación en otros
-
-sectores, como el deportivo, permitiendo comprender las metodologías más efectivas
-
-para mejorar la interacción entre usuarios y servicios digitales en entornos
-
-caracterizados por la abundancia de opciones y variables.
-
-```
-El proyecto desarrollado por Díaz Milian (2012) consistió en el desarrollo de un
-```
-sistema de gestión de reservas para instalaciones deportivas, con el objetivo de
-
-facilitar a los usuarios la consulta de disponibilidad y la realización de reservas desde
-
-dispositivos móviles y aplicaciones web. Utilizando ASP.NET para la aplicación web y
-
-Windows Phone para la aplicación móvil, el sistema implementó un servicio web para
-
-conectar ambas plataformas, permitiendo un acceso eficiente y rápido. Los
-
-resultados mostraron una mejora significativa en la ocupación de las instalaciones
-
-deportivas, ya que el sistema facilitó el proceso de reserva y proporcionó una mayor
-
-comodidad a los usuarios. El proyecto también abrió la posibilidad de futuras
-
-ampliaciones, como la integración de publicidad y la gestión de múltiples complejos
-
-deportivos.
-
-```
-Núñez Valdéz,(2012), en su tesis “Sistemas de Recomendación de Contenidos
-```
-para Libros Inteligentes”, propone una arquitectura para una plataforma de
-
-recomendación de contenidos basada en las acciones y comportamientos de los
-
-usuarios en una comunidad de lectores en la Web. El objetivo principal fue facilitar el
-
-descubrimiento de contenidos de interés mediante recomendaciones automáticas,
-
-reduciendo la sobrecarga de información digital. Utilizando una metodología basada
-
-en la recolección de parámetros implícitos como el tiempo de visualización, visitas
-
-recurrentes y comentarios, el estudio comparó estos datos con valoraciones
-
-explícitas. Entre las conclusiones más relevantes, se destaca que a mayor tiempo de
-
-visualización, mayor es la valoración del contenido, lo que evidencia una relación
-
-directa entre comportamiento e interés. Asimismo, se observó que los contenidos
-
-comentados suelen recibir más comentarios, y que los usuarios solo recomiendan
-
-
-aquellos que les parecen verdaderamente interesantes. Estos hallazgos refuerzan la
-
-eficacia de sistemas de recomendación que prioricen el análisis de comportamiento
-
-sobre métodos invasivos de retroalimentación.
-
-### III. Autores II. Título
+2. **TÍTULO**  
+   
 
 Sistema de recomendaciones de Instalaciones Deportivas con Geolocalización
 
-##### III. AUTORES
-
-##### - SEBASTIAN NICOLAS FUENTES AVALOS (2022073902)
-
-##### - GABRIELA LUZKALID GUTIERREZ MAMANI (2022074263)
-
-##### - MAYRA FERNANDA CHIRE RAMOS (2021072620)
-
-##### - CESAR NIKOLAS CAMAC MELENDEZ (2022074262)
-
-### IV. PLANTEAMIENTO DEL PROBLEMA
-
-#### A. Problema
-
-```
-En la región de Tacna se evidencia una problemática significativa
-```
-```
-relacionada con el ecosistema deportivo local, caracterizada
-```
-```
-principalmente por tres factores interrelacionados:
-```
-```
-En primer lugar, existe una marcada deficiencia en la disponibilidad y
-```
-```
-accesibilidad de información actualizada sobre instalaciones deportivas.
-```
-```
-Los deportistas amateur carecen de medios eficientes para conocer la
-```
-```
-ubicación, características, horarios de funcionamiento y servicios que
-```
-```
-ofrecen los diferentes espacios deportivos disponibles en la región.
-```
-```
-En segundo lugar, los sistemas de reserva de estas instalaciones son
-```
-```
-obsoletos o inexistentes, generalmente basados en métodos
-```
-```
-presenciales o telefónicos, sin aprovechamiento de tecnologías
-```
-```
-digitales que podrían optimizar este proceso. Esta situación genera
-```
-
-```
-incertidumbre, pérdida de tiempo y frecuentemente conduce a la
-```
-```
-subutilización de la infraestructura deportiva existente.
-```
-```
-Se observa una deficiente organización general del ecosistema
-```
-```
-deportivo regional, manifestada en la desconexión entre los tres actores
-```
-```
-principales: los deportistas amateur que buscan espacios para practicar
-```
-```
-sus disciplinas, los administradores o propietarios de instalaciones
-```
-```
-deportivas que ofrecen estos espacios, y las autoridades reguladoras
-```
-```
-encargadas de promover y supervisar la actividad deportiva.
-```
-```
-Esta triple problemática limita significativamente el desarrollo de la
-```
-```
-práctica deportiva en Tacna, reduciendo las oportunidades de
-```
-```
-participación, dificultando la formación de comunidades deportivas
-```
-```
-cohesionadas y obstaculizando el aprovechamiento óptimo de la
-```
-```
-infraestructura existente.
-```
-#### B. Justificación
-
-```
-GameOn Network surge como respuesta ante tres problemáticas
-```
-```
-fundamentales identificadas en el ecosistema deportivo de Tacna:
-```
-```
-Primero, la marcada deficiencia en la disponibilidad y accesibilidad de
-```
-```
-información actualizada sobre instalaciones deportivas genera barreras
-```
-```
-significativas para los deportistas amateur que desean practicar
-```
-```
-actividades físicas. La ausencia de un sistema centralizado que
-```
-```
-proporcione datos actualizados sobre ubicación, características,
-```
-```
-horarios y servicios limita severamente las oportunidades de
-```
-```
-participación deportiva.
-```
-```
-Segundo, los sistemas de reserva actuales, basados principalmente en
-```
-```
-métodos presenciales o telefónicos, resultan ineficientes y
-```
-```
-desactualizados frente a las posibilidades que ofrecen las tecnologías
-```
-```
-digitales contemporáneas. Esta situación no solo genera incertidumbre
-```
-```
-y pérdida de tiempo para los usuarios, sino que también conduce a una
-```
-```
-subutilización significativa de la infraestructura deportiva disponible en
-```
-```
-la región.
-```
-
-```
-Finalmente, la desconexión entre los tres actores principales del
-```
-```
-ecosistema (deportistas, administradores de instalaciones y autoridades
-```
-```
-reguladoras) obstaculiza la creación de un entorno deportivo dinámico y
-```
-```
-cohesionado. Esta fragmentación dificulta la formación de comunidades
-```
-```
-deportivas sólidas y el desarrollo de una cultura deportiva robusta en la
-```
-```
-región.
-```
-```
-La implementación de GameOn Network transformará radicalmente
-```
-```
-este panorama, digitalizando y optimizando procesos que actualmente
-```
-```
-son manuales e ineficientes. El proyecto posicionará a Tacna como
-```
-```
-referente en innovación deportiva a nivel nacional, mejorando
-```
-```
-significativamente la calidad de vida de sus habitantes al promover
-```
-```
-estilos de vida activos y saludables, alineándose con los Objetivos de
-```
-```
-Desarrollo Sostenible (ODS), particularmente el ODS 3 (Salud y
-```
-```
-Bienestar) y el ODS 9 (Industria, Innovación e Infraestructura).
-```
-#### C. Alcance
-
-```
-El proyecto GameOn Network abarcará el desarrollo de una plataforma
-```
-```
-digital que revolucionará la práctica deportiva amateur en Tacna, con
-```
-```
-las siguientes funcionalidades e inclusiones:
-```
-```
-● Diseño e implementación de un sistema digital de registro y
-```
-```
-categorización de instalaciones deportivas en Tacna que incluya
-```
-```
-información detallada sobre ubicación, servicios, disponibilidad y
-```
-```
-costos.
-```
-```
-● Desarrollo de un mecanismo de reservas en línea que permita a
-```
-```
-los usuarios programar el uso de instalaciones deportivas de
-```
-```
-manera sencilla y en tiempo real.
-```
-```
-● Implementación de funcionalidades de geolocalización e
-```
-```
-integración con Google Maps para facilitar el acceso y la
-```
-```
-planificación logística de los deportistas amateur.
-```
-
-```
-● Establecimiento de un sistema de perfiles de usuario que permita
-```
-```
-la conexión entre deportistas con intereses similares,
-```
-```
-fomentando la creación de comunidades deportivas.
-```
-```
-● Implementación de un módulo para la organización y gestión de
-```
-```
-torneos y competencias, incluyendo inscripciones, programación
-```
-```
-y seguimiento de resultados.
-```
-```
-● Desarrollo de un modelo de monetización sostenible a través de
-```
-```
-comisiones por reservas y espacios publicitarios que garantice la
-```
-```
-viabilidad económica de la plataforma.
-```
-**V. OBJETIVOS**
-
-#### A. GENERAL:
-
-```
-Desarrollar una plataforma digital que centralice y optimice la
-```
-```
-información sobre instalaciones deportivas en Tacna, facilitando un
-```
-```
-sistema de reservas eficiente y mejorando la organización del
-```
-```
-ecosistema deportivo regional, con el fin de fortalecer la conexión entre
-```
-```
-deportistas amateur, propietarios de instalaciones deportivas y
-```
-```
-autoridades reguladoras.
-```
-#### B. ESPECÍFICOS:
-
-```
-● Diseñar e implementar un sistema digital de registro y
-```
-```
-categorización de instalaciones deportivas en Tacna que incluya
-```
-```
-información detallada sobre ubicación, servicios, disponibilidad y
-```
-```
-costos.
-```
-```
-● Desarrollar un mecanismo de reservas en línea que permita a los
-```
-```
-usuarios programar el uso de instalaciones deportivas de
-```
-```
-manera sencilla y en tiempo real.
-```
-```
-● Crear funcionalidades de geolocalización e integración con
-```
-```
-Google Maps para facilitar el acceso y la planificación logística
-```
-```
-de los deportistas amateur.
-```
-```
-● Establecer un sistema de perfiles de usuario que permita la
-```
-```
-conexión entre deportistas con intereses similares, fomentando
-```
-```
-la creación de comunidades deportivas.
-```
-
-```
-● Implementar un módulo para la organización, incluyendo
-```
-```
-inscripciones, programación y seguimiento de resultados.
-```
-```
-● Generar un modelo de monetización sostenible a través de
-```
-```
-comisiones por reservas y espacios publicitarios que garantice la
-```
-```
-viabilidad económica de la plataforma.
-```
-### IV. Marco Teórico
-
-```
-A. Sistemas de Información
-```
-```
-Los sistemas de información son conjuntos integrados de componentes
-```
-```
-que recopilan, almacenan, procesan y distribuyen información para
-```
-```
-apoyar la toma de decisiones y el control en una organización (Laudon
-```
-```
-& Laudon, 2016). Están compuestos por hardware, software, datos,
-```
-```
-redes, personas y procedimientos que trabajan coordinadamente.
-```
-```
-B. Sistemas de Recomendación
-```
-```
-Los sistemas de recomendación son herramientas que predicen las
-```
-```
-preferencias de los usuarios basándose en información histórica y
-```
-```
-características de los elementos (Ricci et al., 2015). Existen cuatro tipos
-```
-```
-principales:
-```
-```
-● Filtrado Colaborativo: Basado en usuarios con gustos similares
-```
-```
-● Filtrado por Contenido: Recomienda elementos similares a los
-```
-```
-preferidos
-```
-```
-● Sistemas Híbridos: Combinan múltiples técnicas
-```
-```
-● Basados en Conocimiento: Utilizan conocimiento específico del
-```
-```
-dominio
-```
-```
-Henríquez-Miranda et al. (2025) confirman la efectividad de estos
-```
-```
-sistemas en sectores como el inmobiliario, donde características como
-```
-```
-ubicación, precio y tamaño son variables clave para recomendaciones
-```
-```
-personalizadas.
-```
-```
-C. Geolocalización y Mapas Digitales
-```
-
-```
-La geolocalización identifica la ubicación geográfica real de objetos
-```
-```
-conectados a Internet (Küpper, 2005). Las APIs como Google Maps
-```
-```
-proporcionan funcionalidades para:
-```
-```
-● Visualización de mapas interactivos
-```
-```
-● Cálculo de distancias y rutas
-```
-```
-● Geocodificación de direcciones
-```
-```
-● Información de puntos de interés
-```
-D. Sistemas de Reserva Digital
-
-```
-Los sistemas digitales de reserva han evolucionado desde métodos
-```
-```
-manuales hacia plataformas integradas. Díaz Milian (2012) demostró
-```
-```
-que estos sistemas mejoran significativamente la eficiencia operativa,
-```
-```
-satisfacción del usuario y ocupación de instalaciones deportivas. Las
-```
-```
-características modernas incluyen disponibilidad en tiempo real,
-```
-```
-interfaces multiplataforma y automatización de procesos.
-```
-E. Arquitectura de Software
-
-1. Patrón MVC
-
-```
-El patrón Modelo-Vista-Controlador separa la aplicación en tres
-```
-```
-componentes:
-```
-```
-● Modelo: Gestiona datos y lógica de negocio
-```
-```
-● Vista: Presenta información al usuario
-```
-```
-● Controlador: Maneja interacciones y coordina componentes
-```
-2. Servicios Web RESTful
-
-```
-Proporcionan comunicación sin estado, interfaz uniforme, escalabilidad
-```
-```
-y separación cliente-servidor para sistemas distribuidos.
-```
-F. Bases de Datos Relacionales
-
-
-```
-Los RDBMS como MySQL garantizan integridad de datos, consistencia
-```
-```
-transaccional, escalabilidad y seguridad. En sistemas deportivos deben
-```
-```
-gestionar entidades como usuarios, instalaciones, reservas y torneos
-```
-```
-con sus relaciones complejas.
-```
-G. Experiencia de Usuario (UX)
-
-```
-El diseño centrado en el usuario enfatiza interfaces intuitivas, flujos
-```
-```
-simplificados y accesibilidad. Nielsen (2012) identifica cinco factores
-```
-```
-clave: facilidad de aprendizaje, eficiencia, memorabilidad, manejo de
-```
-```
-errores y satisfacción.
-```
-H. Seguridad y Protección de Datos
-
-```
-La Ley de Protección de Datos Personales (Ley N° 29733) establece
-```
-```
-principios de legalidad, consentimiento, finalidad, proporcionalidad,
-```
-```
-calidad y seguridad. Las medidas técnicas incluyen autenticación
-```
-```
-robusta, autorización granular, cifrado de datos y auditoría.
-```
-I. Ecosistemas Deportivos Digitales
-
-```
-Involucran múltiples actores: deportistas amateur, gestores de
-```
-```
-instalaciones, autoridades reguladoras y comunidad deportiva. La
-```
-```
-digitalización aporta transparencia, optimización de recursos, formación
-```
-```
-de comunidades y democratización del acceso al deporte.
-```
-J. Objetivos de Desarrollo Sostenible
-
-```
-El proyecto se alinea con:
-```
-```
-● ODS 3 (Salud y Bienestar): Promoviendo estilos de vida activos
-```
-```
-● ODS 9 (Innovación e Infraestructura): Implementando
-```
-```
-tecnologías digitales
-```
-```
-● ODS 11 (Ciudades Sostenibles): Mejorando la gestión de
-```
-```
-recursos comunitarios
-```
-
-**VII. Desarrollo de la Solución**
-
-#### A. Análisis de Factibilidad (técnico, económica, operativa, social, legal, ambiental)
-
-```
-En el anexo 01 se presenta el análisis de factibilidad del sistema de
-```
-```
-recomendaciones de Instalaciones Deportivas (GameOn Network).
-```
-```
-Factibilidad Operativa
-```
-```
-El proyecto GameOn Network presenta una alta factibilidad operativa
-```
-```
-debido a que responde directamente a necesidades identificadas en el
-```
-```
-ecosistema deportivo de Tacna. La plataforma ha sido diseñada
-```
-```
-considerando las capacidades técnicas y operativas del equipo de
-```
-```
-desarrollo, así como la infraestructura tecnológica disponible.
-```
-```
-Los usuarios finales (deportistas amateur, administradores de
-```
-```
-instalaciones y autoridades reguladoras) obtendrán beneficios tangibles
-```
-```
-al utilizar el sistema, lo que facilitará su adopción. La interfaz intuitiva y
-```
-```
-las funcionalidades de geolocalización simplificarán la curva de
-```
-```
-aprendizaje para nuevos usuarios.
-```
-```
-El equipo de desarrollo cuenta con las competencias necesarias para
-```
-```
-implementar todas las funcionalidades planificadas, incluyendo el
-```
-```
-sistema de reservas en tiempo real, la integración con Google Maps y
-```
-```
-la gestión de torneos.
-```
-```
-Para garantizar la operatividad continua del sistema, se implementará
-```
-```
-un plan de capacitación para los administradores de instalaciones
-```
-```
-deportivas y se ofrecerá soporte técnico durante las fases iniciales de
-```
-```
-implementación, facilitando así la transición desde los métodos
-```
-```
-tradicionales de reserva hacia el nuevo sistema digital.
-```
-```
-Factibilidad Legal
-```
-```
-La información manejada por la empresa será completamente
-```
-```
-confidencial. Se
-```
-
-aplicará la Ley de Protección de Datos Personales en Perú (Ley N.º
-
-29733), que
-
-regula el tratamiento de datos personales, sin importar el soporte en el
-
-que sean
-
-gestionados. Esta ley garantiza los derechos de las personas sobre sus
-
-datos
-
-personales y establece las obligaciones para quienes recolectan,
-
-almacenan o
-
-procesan dicha información.
-
-Factibilidad Social
-
-El proyecto GameOn Network presenta un potencial para transformar el
-
-ecosistema deportivo en Tacna. La plataforma democratiza el acceso a
-
-la información sobre instalaciones deportivas, reduciendo
-
-significativamente las barreras que actualmente limitan la participación
-
-en actividades físicas y recreativas para diversos sectores de la
-
-población.
-
-Al facilitar la conexión entre deportistas amateur con intereses
-
-similares, el sistema promueve la formación de comunidades deportivas
-
-cohesionadas, fortaleciendo el tejido social de la provincia y
-
-fomentando un mayor sentido de pertenencia e integración social. Esto
-
-resulta particularmente valioso en un contexto donde las oportunidades
-
-de interacción social a través del deporte se han visto limitadas por la
-
-falta de información y coordinación.
-
-La organización de torneos y competencias estructuradas a través de la
-
-plataforma contribuye al desarrollo de una cultura deportiva más
-
-robusta en Tacna, proporcionando incentivos para la participación
-
-regular en actividades físicas y, consecuentemente, mejorando
-
-indicadores de salud pública. El acceso simplificado a estas actividades
-
-
-```
-organizadas potencia el impacto social positivo del deporte como
-```
-#### B. Tecnología de Desarrollo
-
-```
-La optimización en el uso de instalaciones deportivas existentes que
-```
-```
-permite el sistema amplía significativamente las oportunidades de
-```
-```
-práctica deportiva para grupos tradicionalmente marginados o con
-```
-```
-acceso limitado, contribuyendo así a la equidad en el aprovechamiento
-```
-```
-de espacios recreativos. Esta democratización del acceso representa
-```
-```
-un avance importante hacia una sociedad más inclusiva en términos
-```
-```
-deportivos.
-```
-```
-Factibilidad Ambiental
-```
-```
-La implementación del sistema web GameOn Network tiene un impacto
-```
-```
-ambiental reducido, pero se han considerado diversos factores
-```
-```
-relacionados con la sostenibilidad y los Objetivos de Desarrollo
-```
-```
-Sostenible (ODS):
-```
-```
-Alineación con ODS 3 (Salud y Bienestar): La plataforma promueve
-```
-```
-estilos de vida activos y saludables al facilitar la práctica deportiva
-```
-```
-regular, contribuyendo directamente a la mejora de la salud física y
-```
-```
-mental de la población.
-```
-```
-Alineación con ODS 9 (Industria, Innovación e Infraestructura): El
-```
-```
-proyecto optimiza el uso de infraestructura deportiva existente mediante
-```
-```
-la digitalización de procesos de reserva y gestión, maximizando el
-```
-```
-aprovechamiento de recursos ya construidos.
-```
-
-```
-Contribución al ODS 12 (Producción y Consumo Responsables): La
-```
-```
-digitalización de procesos tradicionalmente basados en papel reduce el
-```
-```
-consumo de recursos físicos, promoviendo prácticas de consumo más
-```
-```
-sostenibles.
-```
-```
-Apoyo al ODS 13 (Acción por el Clima): La optimización de rutas y
-```
-```
-desplazamientos mediante el uso de geolocalización puede contribuir a
-```
-```
-la reducción de emisiones asociadas al transporte, apoyando
-```
-```
-indirectamente las acciones contra el cambio climático.
-```
-**B. Tecnología de Desarrollo**
-
-```
-● Servidores: 1 servidor dedicado con Azure App Service (Linux)
-```
-
-● Estaciones de Trabajo: 3 computadoras para el equipo de
-
-```
-desarrollo con especificaciones adecuadas
-```
-● Red y Conectividad: Conexión de red LAN y acceso a internet de
-
-```
-alta velocidad para desarrollo y despliegue
-```
-● Windows 10: Para estaciones de trabajo de desarrollo
-
-● Linux para servidor Azure
-
-● PHP versión 8: Lenguaje de programación de código abierto
-
-```
-especialmente diseñado para desarrollo web, encargado de la
-```
-```
-lógica de negocio y la interacción con la base de datos
-```
-● HTML5: Estructura semántica de páginas web
-
-● CSS3: Estilos y presentación visual
-
-● JavaScript: Interactividad del lado del cliente
-
-● Bootstrap: Framework CSS para diseño responsive y
-
-```
-componentes UI
-```
-● PHP versión 8: Desarrollo del lado del servidor
-
-● Patrón MVC: Arquitectura Modelo-Vista-Controlador para
-
-```
-separación de responsabilidades
-```
-● MySQL 8: Sistema de gestión de bases de datos relacional para
-
-```
-almacenar y gestionar toda la información de la plataforma
-```
-● Visual Studio Code: IDE principal para desarrollo
-
-● Git/GitHub: Control de versiones y colaboración
-
-● Docker
-
-● Google Maps API: Integración de mapas y servicios de
-
-```
-geolocalización
-```
-● RESTful APIs: Para comunicación entre componentes del
-
-```
-sistema
-```
-● Google Chrome: Navegador principal de pruebas
-
-● Mozilla Firefox: Navegador secundario para compatibilidad
-
-```
-cruzada
-```
-
-#### C. Metodología de implementación(Documento de VISIÓN, SRS, SAD)
-
-```
-En el anexo 02, anexo 03 y anexo 04 se presenta la metodología de
-```
-```
-implementación del sistema de recomendaciones de Instalaciones
-```
-```
-Deportivas (GameOn Network).
-```
-### VI. Cronograma
-
-**Fase Actividad Fecha**
-
-```
-Inicio
-```
-```
-Fecha Fin Duración
-```
-**Inicio** Definición del alcance 28/08/2025 24/08/2025 5 días
-
-```
-Identificación de actores y casos
-de uso
-```
-```
-25/08/2025 29/08/2025 5 días
-```
-```
-Evaluación inicial de riesgos 30/08/2025 02/09/2025 4 días
-```
-**Elaboración** Diseño de arquitectura 03/09/2025 09/09/2025 7 días
-
-```
-Elaboración detallada de casos
-de uso
-```
-```
-10/09/2025 16/09/2025 7 días
-```
-```
-Desarrollo de prototipos 17/09/2025 26/09/2025 10 días
-```
-```
-Definición del modelo de datos 27/09/2025 01/10/2025 5 días
-```
-**Construcción** Implementación de módulo de
-
-```
-registro
-```
-```
-02/10/2025 06/10/2025 5 días
-```
-```
-Desarrollo sistema de reservas 07/10/2025 13/10/2025 7 días
-```
-```
-Integración con Google Maps 14/10/2025 18/10/2025 5 días
-```
-```
-Desarrollo sistema de perfiles 19/10/2025 30/10/2025 12 días
-```
-**Transición** Pruebas de aceptación 31/10/2025 02/11/2025 3 días
-
-```
-Corrección de errores 03/11/2025 05/11/2025 3 días
-```
-```
-Corrección de errores 06/11/2025 09/12/2025 2 días
-```
-
-### VII. Presupuesto
-
-```
-En el anexo 01 se presenta el análisis de factibilidad del sistema de
-recomendaciones de Instalaciones Deportivas (GameOn Network).
-```
-### VIII. Conclusiones
-
-```
-El desarrollo de GameOn Network ha demostrado ser una solución
-```
-```
-integral y pertinente para abordar las deficiencias en la gestión del deporte
-```
-```
-amateur en la ciudad de Tacna. A través de la centralización de información
-```
-```
-sobre instalaciones deportivas, la implementación de un sistema de reservas
-```
-```
-eficiente y la integración de herramientas como la geolocalización y el análisis
-```
-```
-de datos, se logra una mejora sustancial en la organización del ecosistema
-```
-```
-deportivo local. La plataforma no solo responde a una necesidad operativa,
-```
-```
-sino que también promueve la participación, la transparencia y la inclusión
-```
-```
-tecnológica en el ámbito deportivo.
-```
-```
-Asimismo, se concluye que el proyecto posee una sólida base técnica y
-```
-```
-económica. El modelo de monetización propuesto, sustentado en comisiones
-```
-```
-por reservas y espacios publicitarios, garantiza su sostenibilidad a largo plazo.
-```
-```
-Además, el cumplimiento con los marcos regulatorios en protección de datos y
-```
-```
-el alineamiento con los Objetivos de Desarrollo Sostenible refuerzan su
-```
-```
-viabilidad legal y su impacto social. Los estudios y antecedentes revisados
-```
-```
-confirman la eficacia de este tipo de soluciones digitales en otros sectores, lo
-```
-
-```
-que respalda la escalabilidad y replicabilidad de GameOn Network en otras
-```
-```
-regiones del país.
-```
-```
-Finalmente, la incorporación de sistemas de recomendación
-```
-```
-inteligentes, inspirados en tecnologías aplicadas en sectores como el
-```
-```
-inmobiliario o educativo, posiciona a esta plataforma como una herramienta
-```
-```
-pionera en la digitalización del deporte local. Su enfoque centrado en el
-```
-```
-usuario, la adaptabilidad tecnológica y el impacto positivo proyectado en la
-```
-```
-comunidad deportiva hacen de este proyecto una iniciativa valiosa y
-```
-```
-transformadora para la región.
-```
-### Recomendaciones
-
-```
-Se recomienda realizar una implementación piloto de GameOn Network en un
-```
-entorno controlado dentro de la ciudad de Tacna, que permita evaluar su rendimiento
-
-real, obtener retroalimentación de los usuarios y optimizar la plataforma antes de su
-
-lanzamiento a gran escala. Esta etapa es clave para identificar posibles mejoras
-
-funcionales, validar la experiencia del usuario y asegurar un despliegue exitoso.
-
-```
-Asimismo, se sugiere fortalecer el componente de inteligencia artificial del
-```
-sistema de recomendaciones, incorporando modelos híbridos y algoritmos de
-
-aprendizaje profundo que permitan personalizar la experiencia del usuario, reducir el
-
-tiempo de búsqueda y mejorar la precisión de las sugerencias ofrecidas por la
-
-plataforma. Esta estrategia puede aumentar significativamente la satisfacción y el
-
-compromiso de los usuarios.
-
-```
-Es importante establecer convenios y alianzas estratégicas con instituciones
-```
-públicas, privadas y comunitarias que gestionan instalaciones deportivas, a fin de
-
-asegurar una base de datos actualizada, promover la participación activa y fomentar
-
-el uso constante de la plataforma. Del mismo modo, se debe garantizar el
-
-cumplimiento de la normativa nacional sobre protección de datos personales,
-
-priorizando la seguridad y privacidad de los usuarios.
-
-
-### Bibliografía(REFERENCIAS)
-
-Núñez Valdéz, E. R. (2012). Sistemas de recomendación de contenidos para libros
-inteligentes [Tesis doctoral, Universidad de Oviedo]. Repositorio de la
-Universidad de Oviedo. https://digibuo.uniovi.es/dspace/handle/10651/13126
-Gutierrez Onofrio, J. M. (2022). Sistema web para mejorar el proceso de reservas de
-canchas deportivas en la empresa El Encuentro S.A.C., La Convención 2022
-[Tesis de licenciatura, Universidad Privada Líder Peruana]. Repositorio
-Institucional ULP.
-https://repositorio.ulp.edu.pe/bitstream/handle/ULP/33/INFORME_JOSE_MIG
-UEL_empastado.pdf?sequence=3
-Henríquez-Miranda, C., Ríos-Pérez, J., & Sanchez-Torres, G. (2025). Recommender
-systems in real estate: a systematic review. Bulletin of Electrical Engineering
-and Informatics, 14(3), 2156-2165. https://doi.org/10.11591/eei.v14i3.8884
-Díaz Milian, E. (2012). _Sistema de gestión de reservas orientado a instalaciones
-deportivas_. Universidad de Zaragoza.
-
-### Anexos
-
-Anexo 01 Informe de Factibilidad
-
-Anex0 02 Documento de Visión
-
-Anexo 03 Documento SRS
+3. **AUTORES**
 
+- SEBASTIAN NICOLAS FUENTES AVALOS		(2022073902)  
+- GABRIELA LUZKALID GUTIERREZ MAMANI 		(2022074263)  
+- MAYRA FERNANDA CHIRE RAMOS			(2021072620)  
+- CESAR NIKOLAS CAMAC MELENDEZ		(2022074262)	
+
+4. **PLANTEAMIENTO DEL PROBLEMA**
+
+   1. ### **Problema** {#problema}
+
+      En la región de Tacna se evidencia una problemática significativa relacionada con el ecosistema deportivo local, caracterizada principalmente por tres factores interrelacionados:
+
+      En primer lugar, existe una marcada deficiencia en la disponibilidad y accesibilidad de información actualizada sobre instalaciones deportivas. Los deportistas amateur carecen de medios eficientes para conocer la ubicación, características, horarios de funcionamiento y servicios que ofrecen los diferentes espacios deportivos disponibles en la región.
+
+      En segundo lugar, los sistemas de reserva de estas instalaciones son obsoletos o inexistentes, generalmente basados en métodos presenciales o telefónicos, sin aprovechamiento de tecnologías digitales que podrían optimizar este proceso. Esta situación genera incertidumbre, pérdida de tiempo y frecuentemente conduce a la subutilización de la infraestructura deportiva existente.
+
+      Se observa una deficiente organización general del ecosistema deportivo regional, manifestada en la desconexión entre los tres actores principales: los deportistas amateur que buscan espacios para practicar sus disciplinas, los administradores o propietarios de instalaciones deportivas que ofrecen estos espacios, y las autoridades reguladoras encargadas de promover y supervisar la actividad deportiva.
+
+      Esta triple problemática limita significativamente el desarrollo de la práctica deportiva en Tacna, reduciendo las oportunidades de participación, dificultando la formación de comunidades deportivas cohesionadas y obstaculizando el aprovechamiento óptimo de la infraestructura existente.
+
+   2. ### **Justificación** {#justificación}
+
+      GameOn Network surge como respuesta ante tres problemáticas fundamentales identificadas en el ecosistema deportivo de Tacna:
+
+      Primero, la marcada deficiencia en la disponibilidad y accesibilidad de información actualizada sobre instalaciones deportivas genera barreras significativas para los deportistas amateur que desean practicar actividades físicas. La ausencia de un sistema centralizado que proporcione datos actualizados sobre ubicación, características, horarios y servicios limita severamente las oportunidades de participación deportiva.
+
+      Segundo, los sistemas de reserva actuales, basados principalmente en métodos presenciales o telefónicos, resultan ineficientes y desactualizados frente a las posibilidades que ofrecen las tecnologías digitales contemporáneas. Esta situación no solo genera incertidumbre y pérdida de tiempo para los usuarios, sino que también conduce a una subutilización significativa de la infraestructura deportiva disponible en la región.
+
+      Finalmente, la desconexión entre los tres actores principales del ecosistema (deportistas, administradores de instalaciones y autoridades reguladoras) obstaculiza la creación de un entorno deportivo dinámico y cohesionado. Esta fragmentación dificulta la formación de comunidades deportivas sólidas y el desarrollo de una cultura deportiva robusta en la región.
+
+      La implementación de GameOn Network transformará radicalmente este panorama, digitalizando y optimizando procesos que actualmente son manuales e ineficientes. El proyecto posicionará a Tacna como referente en innovación deportiva a nivel nacional, mejorando significativamente la calidad de vida de sus habitantes al promover estilos de vida activos y saludables, alineándose con los Objetivos de Desarrollo Sostenible (ODS), particularmente el ODS 3 (Salud y Bienestar) y el ODS 9 (Industria, Innovación e Infraestructura).
+
+   3. ### **Alcance** {#alcance}
+
+      El proyecto GameOn Network abarcará el desarrollo de una plataforma digital que revolucionará la práctica deportiva amateur en Tacna, con las siguientes funcionalidades e inclusiones:
+
+* Diseño e implementación de un sistema digital de registro y categorización de instalaciones deportivas en Tacna que incluya información detallada sobre ubicación, servicios, disponibilidad y costos.  
+* Desarrollo de un mecanismo de reservas en línea que permita a los usuarios programar el uso de instalaciones deportivas de manera sencilla y en tiempo real.  
+* Implementación de funcionalidades de geolocalización e integración con Google Maps para facilitar el acceso y la planificación logística de los deportistas amateur.  
+* Establecimiento de un sistema de perfiles de usuario que permita la conexión entre deportistas con intereses similares, fomentando la creación de comunidades deportivas.  
+* Implementación de un módulo para la organización y gestión de torneos y competencias, incluyendo inscripciones, programación y seguimiento de resultados.  
+* Desarrollo de un modelo de monetización sostenible a través de comisiones por reservas y espacios publicitarios que garantice la viabilidad económica de la plataforma.  
+5. **OBJETIVOS**
+
+   1. ### **GENERAL:** {#general:}
+
+      Desarrollar una plataforma digital que centralice y optimice la información sobre instalaciones deportivas en Tacna, facilitando un sistema de reservas eficiente y mejorando la organización del ecosistema deportivo regional, con el fin de fortalecer la conexión entre deportistas amateur, propietarios de instalaciones deportivas y autoridades reguladoras.
+
+   2. ### **ESPECÍFICOS:** {#específicos:}
+
+* Diseñar e implementar un sistema digital de registro y categorización de instalaciones deportivas en Tacna que incluya información detallada sobre ubicación, servicios, disponibilidad y costos.  
+* Desarrollar un mecanismo de reservas en línea que permita a los usuarios programar el uso de instalaciones deportivas de manera sencilla y en tiempo real.  
+* Crear funcionalidades de geolocalización e integración con Google Maps para facilitar el acceso y la planificación logística de los deportistas amateur.  
+* Establecer un sistema de perfiles de usuario que permita la conexión entre deportistas con intereses similares, fomentando la creación de comunidades deportivas.  
+* Implementar un módulo para la organización, incluyendo inscripciones, programación y seguimiento de resultados.  
+* Generar un modelo de monetización sostenible a través de comisiones por reservas y espacios publicitarios que garantice la viabilidad económica de la plataforma.  
+6. **Marco Teórico**  
+   1. Sistemas de Información
+
+      Los sistemas de información son conjuntos integrados de componentes que recopilan, almacenan, procesan y distribuyen información para apoyar la toma de decisiones y el control en una organización (Laudon & Laudon, 2016). Están compuestos por hardware, software, datos, redes, personas y procedimientos que trabajan coordinadamente.
+
+   2. Sistemas de Recomendación
+
+      Los sistemas de recomendación son herramientas que predicen las preferencias de los usuarios basándose en información histórica y características de los elementos (Ricci et al., 2015). Existen cuatro tipos principales:
+
+* Filtrado Colaborativo: Basado en usuarios con gustos similares  
+* Filtrado por Contenido: Recomienda elementos similares a los preferidos  
+* Sistemas Híbridos: Combinan múltiples técnicas  
+* Basados en Conocimiento: Utilizan conocimiento específico del dominio
+
+  Henríquez-Miranda et al. (2025) confirman la efectividad de estos sistemas en sectores como el inmobiliario, donde características como ubicación, precio y tamaño son variables clave para recomendaciones personalizadas.
+
+
+  3. Geolocalización y Mapas Digitales
+
+     La geolocalización identifica la ubicación geográfica real de objetos conectados a Internet (Küpper, 2005). Las APIs como Google Maps proporcionan funcionalidades para:
+
+* Visualización de mapas interactivos  
+* Cálculo de distancias y rutas  
+* Geocodificación de direcciones  
+* Información de puntos de interés  
+  4. Sistemas de Reserva Digital
+
+     Los sistemas digitales de reserva han evolucionado desde métodos manuales hacia plataformas integradas. Díaz Milian (2012) demostró que estos sistemas mejoran significativamente la eficiencia operativa, satisfacción del usuario y ocupación de instalaciones deportivas. Las características modernas incluyen disponibilidad en tiempo real, interfaces multiplataforma y automatización de procesos.
+
+  5. Arquitectura de Software
+
+     1. Patrón MVC
+
+     El patrón Modelo-Vista-Controlador separa la aplicación en tres componentes:
+
+* Modelo: Gestiona datos y lógica de negocio  
+* Vista: Presenta información al usuario  
+* Controlador: Maneja interacciones y coordina componentes  
+  2. Servicios Web RESTful
+
+     Proporcionan comunicación sin estado, interfaz uniforme, escalabilidad y separación cliente-servidor para sistemas distribuidos.
+
+     
+
+     
+
+     
+
+  6.  Bases de Datos Relacionales
+
+     Los RDBMS como MySQL garantizan integridad de datos, consistencia transaccional, escalabilidad y seguridad. En sistemas deportivos deben gestionar entidades como usuarios, instalaciones, reservas y torneos con sus relaciones complejas.
+
+  7. Experiencia de Usuario (UX)
+
+     El diseño centrado en el usuario enfatiza interfaces intuitivas, flujos simplificados y accesibilidad. Nielsen (2012) identifica cinco factores clave: facilidad de aprendizaje, eficiencia, memorabilidad, manejo de errores y satisfacción.
+
+  8. Seguridad y Protección de Datos
+
+     La Ley de Protección de Datos Personales (Ley N° 29733\) establece principios de legalidad, consentimiento, finalidad, proporcionalidad, calidad y seguridad. Las medidas técnicas incluyen autenticación robusta, autorización granular, cifrado de datos y auditoría.
+
+  9. Ecosistemas Deportivos Digitales
+
+     Involucran múltiples actores: deportistas amateur, gestores de instalaciones, autoridades reguladoras y comunidad deportiva. La digitalización aporta transparencia, optimización de recursos, formación de comunidades y democratización del acceso al deporte.
+
+  10. Objetivos de Desarrollo Sostenible
+
+      El proyecto se alinea con:
+
+* ODS 3 (Salud y Bienestar): Promoviendo estilos de vida activos  
+* ODS 9 (Innovación e Infraestructura): Implementando tecnologías digitales  
+* ODS 11 (Ciudades Sostenibles): Mejorando la gestión de recursos comunitarios  
+7. **Desarrollo de la Solución**
+
+   1. ### **Análisis de Factibilidad (técnico, económica, operativa, social, legal, ambiental)** {#análisis-de-factibilidad-(técnico,-económica,-operativa,-social,-legal,-ambiental)}
+
+      En el anexo 01 se presenta el análisis de factibilidad del sistema de recomendaciones de Instalaciones Deportivas (GameOn Network).
+
+      Factibilidad Operativa
+
+      El proyecto GameOn Network presenta una alta factibilidad operativa debido a que responde directamente a necesidades identificadas en el ecosistema deportivo de Tacna. La plataforma ha sido diseñada considerando las capacidades técnicas y operativas del equipo de desarrollo, así como la infraestructura tecnológica disponible.
+
+      Los usuarios finales (deportistas amateur, administradores de instalaciones y autoridades reguladoras) obtendrán beneficios tangibles al utilizar el sistema, lo que facilitará su adopción. La interfaz intuitiva y las funcionalidades de geolocalización simplificarán la curva de aprendizaje para nuevos usuarios.
+
+      El equipo de desarrollo cuenta con las competencias necesarias para implementar todas las funcionalidades planificadas, incluyendo el sistema de reservas en tiempo real, la integración con Google Maps y la gestión de torneos.
+
+      Para garantizar la operatividad continua del sistema, se implementará un plan de capacitación para los administradores de instalaciones deportivas y se ofrecerá soporte técnico durante las fases iniciales de implementación, facilitando así la transición desde los métodos tradicionales de reserva hacia el nuevo sistema digital.
+
+      Factibilidad Legal
+
+      La información manejada por la empresa será completamente confidencial. Se
+
+      aplicará la Ley de Protección de Datos Personales en Perú (Ley N.º 29733), que
+
+      regula el tratamiento de datos personales, sin importar el soporte en el que sean
+
+      gestionados. Esta ley garantiza los derechos de las personas sobre sus datos
+
+      personales y establece las obligaciones para quienes recolectan, almacenan o
+
+      procesan dicha información.
+
+      Factibilidad Social
+
+      El proyecto GameOn Network presenta un potencial para transformar el ecosistema deportivo en Tacna. La plataforma democratiza el acceso a la información sobre instalaciones deportivas, reduciendo significativamente las barreras que actualmente limitan la participación en actividades físicas y recreativas para diversos sectores de la población.
+
+      Al facilitar la conexión entre deportistas amateur con intereses similares, el sistema promueve la formación de comunidades deportivas cohesionadas, fortaleciendo el tejido social de la provincia y fomentando un mayor sentido de pertenencia e integración social. Esto resulta particularmente valioso en un contexto donde las oportunidades de interacción social a través del deporte se han visto limitadas por la falta de información y coordinación.
+
+      La organización de torneos y competencias estructuradas a través de la plataforma contribuye al desarrollo de una cultura deportiva más robusta en Tacna, proporcionando incentivos para la participación regular en actividades físicas y, consecuentemente, mejorando indicadores de salud pública. El acceso simplificado a estas actividades organizadas potencia el impacto social positivo del deporte como herramienta de desarrollo comunitario.
+
+      La optimización en el uso de instalaciones deportivas existentes que permite el sistema amplía significativamente las oportunidades de práctica deportiva para grupos tradicionalmente marginados o con acceso limitado, contribuyendo así a la equidad en el aprovechamiento de espacios recreativos. Esta democratización del acceso representa un avance importante hacia una sociedad más inclusiva en términos deportivos.
+
+      Factibilidad Ambiental
+
+      La implementación del sistema web GameOn Network tiene un impacto ambiental reducido, pero se han considerado diversos factores relacionados con la sostenibilidad y los Objetivos de Desarrollo Sostenible (ODS):
+
+      Alineación con ODS 3 (Salud y Bienestar): La plataforma promueve estilos de vida activos y saludables al facilitar la práctica deportiva regular, contribuyendo directamente a la mejora de la salud física y mental de la población.
+
+   ![][image2]
+
+      Alineación con ODS 9 (Industria, Innovación e Infraestructura):  El proyecto optimiza el uso de infraestructura deportiva existente mediante la digitalización de procesos de reserva y gestión, maximizando el aprovechamiento de recursos ya construidos.
+
+![][image3]  
+Contribución al ODS 12 (Producción y Consumo Responsables): La digitalización de procesos tradicionalmente basados en papel reduce el consumo de recursos físicos, promoviendo prácticas de consumo más sostenibles.
+
+![][image4]
+
+Apoyo al ODS 13 (Acción por el Clima): La optimización de rutas y desplazamientos mediante el uso de geolocalización puede contribuir a la reducción de emisiones asociadas al transporte, apoyando indirectamente las acciones contra el cambio climático.
+
+![][image5]
+
+2. ### **Tecnología de Desarrollo** {#tecnología-de-desarrollo}
+
+* Servidores: 1 servidor dedicado con Azure App Service (Linux)  
+* Estaciones de Trabajo: 3 computadoras para el equipo de desarrollo con especificaciones adecuadas  
+* Red y Conectividad: Conexión de red LAN y acceso a internet de alta velocidad para desarrollo y despliegue  
+* Windows 10: Para estaciones de trabajo de desarrollo  
+* Linux para servidor Azure  
+* PHP versión 8: Lenguaje de programación de código abierto especialmente diseñado para desarrollo web, encargado de la lógica de negocio y la interacción con la base de datos  
+* HTML5: Estructura semántica de páginas web  
+* CSS3: Estilos y presentación visual  
+* JavaScript: Interactividad del lado del cliente  
+* Bootstrap: Framework CSS para diseño responsive y componentes UI  
+* PHP versión 8: Desarrollo del lado del servidor  
+* Patrón MVC: Arquitectura Modelo-Vista-Controlador para separación de responsabilidades  
+* MySQL 8: Sistema de gestión de bases de datos relacional para almacenar y gestionar toda la información de la plataforma  
+* Visual Studio Code: IDE principal para desarrollo  
+* Git/GitHub: Control de versiones y colaboración  
+* Docker  
+* Google Maps API: Integración de mapas y servicios de geolocalización  
+* RESTful APIs: Para comunicación entre componentes del sistema  
+* Google Chrome: Navegador principal de pruebas  
+* Mozilla Firefox: Navegador secundario para compatibilidad cruzada
+
+  3. ### **Metodología de implementación(Documento de VISIÓN, SRS, SAD)** {#metodología-de-implementación(documento-de-visión,-srs,-sad)}
+
+     En el anexo 02, anexo 03 y anexo 04 se presenta la metodología de implementación del sistema de recomendaciones de Instalaciones Deportivas (GameOn Network).
+
+8. **Cronograma**
+
+| Fase | Actividad | Fecha Inicio | Fecha Fin | Duración |
+| :---- | :---- | :---- | :---- | :---- |
+| **Inicio** | Definición del alcance | 28/08/2025 | 24/08/2025 | 5 días |
+|  | Identificación de actores y casos de uso | 25/08/2025 | 29/08/2025 | 5 días |
+|  | Evaluación inicial de riesgos | 30/08/2025 | 02/09/2025 | 4 días |
+| **Elaboración** | Diseño de arquitectura | 03/09/2025 | 09/09/2025 | 7 días |
+|  | Elaboración detallada de casos de uso | 10/09/2025 | 16/09/2025 | 7 días |
+|  | Desarrollo de prototipos | 17/09/2025 | 26/09/2025 | 10 días |
+|  | Definición del modelo de datos | 27/09/2025 | 01/10/2025 | 5 días |
+| **Construcción** | Implementación de módulo de registro | 02/10/2025 | 06/10/2025 | 5 días |
+|  | Desarrollo sistema de reservas | 07/10/2025 | 13/10/2025 | 7 días |
+|  | Integración con Google Maps | 14/10/2025 | 18/10/2025 | 5 días |
+|  | Desarrollo sistema de perfiles | 19/10/2025 | 30/10/2025 | 12 días |
+| **Transición** | Pruebas de aceptación | 31/10/2025 | 02/11/2025 | 3 días |
+|  | Corrección de errores | 03/11/2025 | 05/11/2025 | 3 días |
+|  | Corrección de errores | 06/11/2025 | 09/12/2025 | 2 días |
+
+9. **Presupuesto**  
+   En el anexo 01 se presenta el análisis de factibilidad del sistema de recomendaciones de Instalaciones Deportivas (GameOn Network).
+
+![][image6]
+
+10. **Conclusiones**  
+    El desarrollo de GameOn Network ha demostrado ser una solución integral y pertinente para abordar las deficiencias en la gestión del deporte amateur en la ciudad de Tacna. A través de la centralización de información sobre instalaciones deportivas, la implementación de un sistema de reservas eficiente y la integración de herramientas como la geolocalización y el análisis de datos, se logra una mejora sustancial en la organización del ecosistema deportivo local. La plataforma no solo responde a una necesidad operativa, sino que también promueve la participación, la transparencia y la inclusión tecnológica en el ámbito deportivo.
+
+    Asimismo, se concluye que el proyecto posee una sólida base técnica y económica. El modelo de monetización propuesto, sustentado en comisiones por reservas y espacios publicitarios, garantiza su sostenibilidad a largo plazo. Además, el cumplimiento con los marcos regulatorios en protección de datos y el alineamiento con los Objetivos de Desarrollo Sostenible refuerzan su viabilidad legal y su impacto social. Los estudios y antecedentes revisados confirman la eficacia de este tipo de soluciones digitales en otros sectores, lo que respalda la escalabilidad y replicabilidad de GameOn Network en otras regiones del país.
+
+    Finalmente, la incorporación de sistemas de recomendación inteligentes, inspirados en tecnologías aplicadas en sectores como el inmobiliario o educativo, posiciona a esta plataforma como una herramienta pionera en la digitalización del deporte local. Su enfoque centrado en el usuario, la adaptabilidad tecnológica y el impacto positivo proyectado en la comunidad deportiva hacen de este proyecto una iniciativa valiosa y transformadora para la región.
+
+    **Recomendaciones**
+
+Se recomienda realizar una implementación piloto de GameOn Network en un entorno controlado dentro de la ciudad de Tacna, que permita evaluar su rendimiento real, obtener retroalimentación de los usuarios y optimizar la plataforma antes de su lanzamiento a gran escala. Esta etapa es clave para identificar posibles mejoras funcionales, validar la experiencia del usuario y asegurar un despliegue exitoso.  
+Asimismo, se sugiere fortalecer el componente de inteligencia artificial del sistema de recomendaciones, incorporando modelos híbridos y algoritmos de aprendizaje profundo que permitan personalizar la experiencia del usuario, reducir el tiempo de búsqueda y mejorar la precisión de las sugerencias ofrecidas por la plataforma. Esta estrategia puede aumentar significativamente la satisfacción y el compromiso de los usuarios.  
+Es importante establecer convenios y alianzas estratégicas con instituciones públicas, privadas y comunitarias que gestionan instalaciones deportivas, a fin de asegurar una base de datos actualizada, promover la participación activa y fomentar el uso constante de la plataforma. Del mismo modo, se debe garantizar el cumplimiento de la normativa nacional sobre protección de datos personales, priorizando la seguridad y privacidad de los usuarios.
+
+**Bibliografía(REFERENCIAS)**  
+Núñez Valdéz, E. R. (2012). Sistemas de recomendación de contenidos para libros inteligentes \[Tesis doctoral, Universidad de Oviedo\]. Repositorio de la Universidad de Oviedo. [https://digibuo.uniovi.es/dspace/handle/10651/13126](https://digibuo.uniovi.es/dspace/handle/10651/13126)  
+Gutierrez Onofrio, J. M. (2022). Sistema web para mejorar el proceso de reservas de canchas deportivas en la empresa El Encuentro S.A.C., La Convención 2022 \[Tesis de licenciatura, Universidad Privada Líder Peruana\]. Repositorio Institucional ULP. [https://repositorio.ulp.edu.pe/bitstream/handle/ULP/33/INFORME\_JOSE\_MIGUEL\_empastado.pdf?sequence=3](https://repositorio.ulp.edu.pe/bitstream/handle/ULP/33/INFORME_JOSE_MIGUEL_empastado.pdf?sequence=3)  
+Henríquez-Miranda, C., Ríos-Pérez, J., & Sanchez-Torres, G. (2025). Recommender systems in real estate: a systematic review. Bulletin of Electrical Engineering and Informatics, 14(3), 2156-2165. [https://doi.org/10.11591/eei.v14i3.8884](https://doi.org/10.11591/eei.v14i3.8884)  
+Díaz Milian, E. (2012). *Sistema de gestión de reservas orientado a instalaciones deportivas*. Universidad de Zaragoza.
+
+**Anexos**  
+Anexo 01 Informe de Factibilidad  
+Anex0 02 Documento de Visión  
+Anexo 03 Documento SRS  
 Anexo 04 Documento SAD
 
+[image1]: <data:image/png;base64,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>
 
+[image2]: <data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAI4AAACOCAIAAABon6dfAAAO+UlEQVR4Xu1dTYgUSRbOo0gfRRsaevpQC7LI4J6WBS8LC4I3EXYPwlxkLrKgl4a59DTdPWuvMwddVgT74EIP7Agig4oeBoWGGZYBUVnmIMzOQfTkHIQRmsFT7Bf5Vb2KisjMyv+MqMrHR3dVZlZmxvsyXrz34icjFay8effzk5dPv/z+q+t7O598/enZ3XMnb5w+fuXE4PLvAHzAV2zELhxw59ldHIyf2GcJRyJ7g5cCFV99dC3aXIrWFw5ufXDob79Z+fuHpKQo8EP8HCfBqQ5sLeO0ofDnNVVQ4v3nD1A/QBL06+q9OnDaaOMILvH4xZ7nnHlH1f77/fO3LjbHTTYWLx3FpS/cXsVt2HfWtfhC1dq9LRilpUu/ddXXFUAbAAtp32tH4gVVf/jnnzqpQ1PBhu3Uzhn7jruQzqh69fY1fDPUJFdBfgK3ihvGbdslaUu6oQoFhgMG8+JqxGfolmx9oSu22qYKLoNXDVI5gDMUxC5bw9IeVSheQOYuD1AcFMouZ2PSBlU/vvkJjkPpoNVnoFAoGgpol7kBaZyqmWTIBYppl7xuaZYquEzzQxUKa5e/VmmKqut7O8vbx9wizTZQZBTc1kVN0ghViBmjzSW3JPMAFLyhkLl+qhB5uAWYN0AJtl4qS51UeZsf6gRQBRRi66iC1EYVHNYZiG3rBRRSox9fD1W90ctAXcawBqq+/P4r9/56mICKbK0Vl6pURRuH3Tvr4QKKsnVXUCpR1du9QqhoCctTdefZXfduemQDSrP1mFtKUtXXp9IoXbfKUPXq7es5yew1AaiuXOdkYapO3jjdx08VAQVCjbZmp0lhqvp8RC2AGm3NTpNiVPVNVI0o2mgVoAp11r1ejyooZAbzUnX10bUDW8vuxXpUwcGtD/IPCc1LVe/yNYT8Pf25qLpwe9W9RlEsbx9bvHQ0p1cyV09Gzp7+6VRBvxUVF20cNvOV++/38TXjnHIwu5LZqXrzu12Q/ed/fYTPg9h04MO3//vP8Ssn9JGr0Y9vfsKZOb3HPafPgCryDFKbQhXK7566EKKNI/ZJY7nz7G7isEByANVf39sBE2Dr/g8PseWXX98JVSgbD/vv6x+EKpCEx/P+8wf6a4DDBab2bE2h6vf/+KN70kLI6AlNNIZDqtYi6B1UwZeRMiByzKbqs4eXOQolxHw/VD3US4pkUVXd9AFQN892dvecnne2Nr4i1OoePxg9X2BlMGp1uQV1ZYapmmoGs6hKNFBFIXWCxFPFFBgr93iCB4Ba3v3QrG0cnmGqBiOLkiapVJ2/ddE9VwkIVTR3U6mClYNfgMOg+scv9lgLP/73X1XM0GxTBWTMWkilqq6c7F9ufgRFA7SlMGJyiUQDKG4F9A7t0yt59fY1vDtQSG8QG5mVAVU08aRq7d4WvccQ3QoCahf9WJJMVXXHTwC3DZcHOF/TTHxB7+7xzGNC46xVaOH0ZKzVCFUQYCYG2yXIZ4cCqbJqcKBIcwUTqOI8NfcUVeA+LKAwzWdBnQAT8ADZWcBZJDB0pBY2EMB2jmNlfQXwGdtRycKtUkTabLsEqi7cXq19PqFFFUKlbANLh2IQ+0VkFH85CB5/hWb8xXnMA9LoDwgoOCgw1UVJoKoWx88ClIh6jaZFroK2J2gz1SgSe7MSqHJ/WQu0L7BxZDByxFWKWzGIb1Q+sJYcitdv4Ve6f4PYASE4H1I28gDZoi+9ucRuAVRBcxe/8hjZ7skEFoOQodhU1d4pxaYFEKXLteAIuMcfpAe4vkDXbhCnEKWlRV2kv26G0vAy+IE+izkRA4fJb29+twuvcrxrfYHjh3BL1lNcu/0vAbcra4IqlKReo7RiZPgZ60ylCvjl13cIL0AAqt0hvbCOpgqKZuJj6K/HVMFRpG85vMSq3iheInYxIMPBg/g5Rd3iuljgCeCSLzg/74rrM3CLe1ctA7dkPlj6rswvYg3qQjmqoGUoFHvp+2VQxbGI4rMghlMGVYNRBhJ/GVnjLzx+TVXsJfJX4EyoQmTGLe5dtQ8aGJEJqrK9shIoR5WEyXx0TAMIAiwDiF20eyDyTbyelZgOfF2Jp1Wr2HKydEIVuFdxEA16eEUcgwqt4srn3lX7sNzmMVW4Uffo6pB1pWiFzD6RtEBbjqFySRVpUJO1CprVHSXxcHBpsUgVrgsaBrHvy+2D+NERqlhHETagapqBuVezJcxVucZU1ZX0s2AO/bUiOzQM7vGDkXJBA7+KAWR+j0y4BlBS+KYBZIDCLhUVJw+HVI2eBvwKFyJVvL20B6gTmCnBMVUNBfkwJnIJU1A50uxtIlVghWGZSRX0jvaJJg5KN7kEH9jF1gsnYSN0/MqJIVXxz3FC1lF6H6CKdbf2Nrs0zJTpmKp6fT8TVJMpUH2GQ0yqxCCbbZWaNIAUmj5QRc5MNxeHsflRMXmoTKAKDIkDyfrEdgs8DbO9HniAhNm0Dwuc1sLXBYalqGE5Y0zo1Gzbtcu+uXQwXjAQp+IubCG4l48aPmincbRrEF8aqgclDOwWR0NxsHfYFo7OwHvjGdxb6grSSA+pSuw66uED2K06pkoWUu7hG9h3OqSKPXjuQT18AKihDdRUIYxvzqfoURGghv2omqq+SnkORoGkyhfftEcimI7RVPkT8fVIxLBjSPnRPdM5EKulZU86B3MCmiqvIr72IT1DDSWsq4MdFNGrt6/dfXMFSb1rdTSTCK0OPYzsycun7o65gjk86PNvrvgZt+gEplfdM53AelPL2r0t95jOoTPLwU0cqxfS0yrdXU1nrsvh+t6O7nNzd8wPpP8XrZRMBfNkbIUJ0BRxGtPcYkzP5hIjTdVYh3gVnN09F9U+8C8syIBfRixovfnVtxhLj9Gf5+4PcdNlnC9MH8mDsfGKLf0WQ3fr/CAajVwQ0yKjPOPefY9So5qqua1VYAUNgHLm+ktVg0/o/qorzDVVoIcD31CNLFsnwxn8SblpquACuTv8R/XeANP3s3aJKwgFecKWditCdNapyoqd1zJgLZEMpjD0aE4/WizQFNWyflKbkDZGZgmUgAymTxtLy7GLnIri7m0foCm8xJIYrirzHsX3y7D/ibWtK+jEUnDpWhkXpyqsKyRj1j3MISVCp2vD6gSxphxtP/zCPWYqxPdT/mUl0qCtfVhdi+KbUcqZBBlZl9bt65XpI3TXokpxgTxEZCzoQF0nPmcc1J5RKHnHnturgBiLaUCYWYkHcCp4GbgiqOWiHhknbwLDDnsVzjAYyaXCFxALZmlNknhphl18Pz0fxBgAifoq5xf57OHlaC2y+h5V7MS3ydZ4GEz1cLIFTKr4sNQMq7FhBo/adE8yMKbBWI64O7OIkvY+o9JxQgmMB5d5EuVlQxwK+mwyicp8zszZSMphkUj0/aQvOL98/s0V9+QNYTxkMwiqOFtNjabsLW8f41fz6ZZoyTzSglS7DI7zCCewtoPxQGhvh+kIRJUgjFuEFVPjIzUOJfER5CRGy/crQRXnhLeAiekFLU/aWYlX/uQigTnBIZXwyqQOiXJP7ZyRVbC4RUylGyDLLsv3k4Ywv+CurJM3hIlJO6qxdZXSIPNzCwnaJ5mcKr1KcAfwGRQyiyHTe1WSNiUsc51eWUshp7T5cA+vyH9tTjBFG16OKstN4EaoOBotQqFG7ZPsMo/Hru2HX6iUlDzI43T8PNLmWEF7gmmbg99orFwrlw13SU6aBVkNRhkOuuwyj0c9YOSEsCxx6riVtUoTHWy1WKXsadsqxV/yGRIFfzxy6sT/lmDIDFRluY6MOBK72MOSJuDJ/VVzMP2dMVVtxnS1QKJgMadiIeUtG2abJJYkMd4SZNStluvTYDL8GFMVXB+jtWKeaSHB0HABudHzJ3FYnngoka02Y16BOfVhTFVamtlbwNyJHedydONdI0dDapX4fjlzd2BL7KpKCdFagNyAvgfzi+vC+gzwIQlWyy7BxDO7gZq3Eq+hKm/cyK90qVud1KfB5MQvfefml0OjtWKDAAmAMXCbeuEG/gU0DiKtAc85AYW4cXQ7wH1aOZQJqhB2hOUHruj1k44k3jM9eA6VkfqR2L+VjULU1ggUCrXZZGeCKpXyRoEQIYvbgSrJRAQ0ks5cLJliU6VaTzI1BOnXkI4o5jXcI/3EmI+RJFCVESEGBMnASjjcxFsZGkJipj+BKsSPoRQpG3Qlxovnthu9lsZi/hdNNPH6lk5gjhhU4WTOzNE+piRQpZxEZ6AwM+UlfL+uYK7+akoyVWpaoiwImAm0ciMG20fGKI9UqjyculwUQpWe0BGI71fmBX4qfFdQEjOh+H6JaWKRLKoW63jZbIfAzQ9HJYRQpVaqvGxWJY0kCQ6hPG2VXuGsZsUVDAJpjp/IFKpU+GbQf6zEb4m09e7IdKpUgB3EYSExN+FKLqpUwW6eHvkhucqpkpcqvqzcvVKPKoBK5V3UUyUvVaqBN2b2sEbyZEsBqiCzkcb1BDLSNKcUo0qFk5/2HIk9UtlSmCrU2RnI5HYLKLCQ6aMUpkrFcXHvEJYGVJfYHTVVylCl+karAoo2USIlqVKjt4f2KATzfa5FpTxVkPwjVXsMjMHY5aQSVapnKzcq8qSqU6V6S5gDVeyeSA1UqdjL6H3CROih2mX9CEvqoUrFQ4L6eMsCFFLOL0+U2qhS8SSnPpchgCpklclapE6qKH3INagQPGVI/VSpOPk0tz0mB7aWSySN8kgjVKm4f2sOHY3l7WMymbx2aYoqyidffzonhKGYMq2/IWmWKjVPPf12yeuWxqlScSbemgE/M0ChULSp48JqkTaooixeOjpjvgaKkz0etl5pjyrK+VsXZyBSRhEy5gE0JG1TRdHrz64vBDHk3wRuGLfdjrlzpRuqVJyIunB7NaDsBm4VN1xjoqiodEaVKad2zvhZw1bidT7cdQk6ES+oUnEEhjjfq2YMT4+7zkeH4gtVIvvv99FiR5tLndhG3RptLsHQucvgdy7eUWXKm3c/33/+QL+7LmV1nurAaXFyXOLxiz1ZB81P8ZoqESjx6qNreN7hgDGaKR1Qr8STA/UaWesLOCFO6zlDImFQlShQ8ZOXT+88u3t9bwdN3dndcydvnJa3fOIDvmIjduEAHIaDQ2ElUf4PHP7D6qp146YAAAAASUVORK5CYII=>
+
+[image3]: <data:image/png;base64,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>
+
+[image4]: <data:image/png;base64,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>
+
+[image5]: <data:image/png;base64,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>
+
+[image6]: <data:image/png;base64,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>
