@@ -20,19 +20,12 @@ define('BASE_URL', 'http://' . $_SERVER['HTTP_HOST'] . '/gameon/');
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
-    <!-- Sección de video hero -->
-    <div class="video-container">
-        <video autoplay muted loop id="hero-video">
-            <source src="Resources/video1.mp4" type="video/mp4">
-            Tu navegador no soporta el tag de video.
-        </video>
-        <div class="overlay"></div>
+    <!-- Sección de imagen hero -->
+    <div class="image-container">
+        <img src="Resources/new_index.jpg" alt="GameOn Network" id="hero-image">
         <div class="hero-content">
-            <h1>Sistema de recomendaciones de Instalaciones Deportivas con Geolocalización e IA del IPD</h1>
-            <p>Conectando deportistas con los mejores espacios deportivos</p>
             <div class="hero-buttons">
                 <a href="Views/Auth/login.php" class="btn btn-primary">Iniciar Sesión</a>
-                <a href="#about" class="btn btn-secondary">Conócenos</a>
             </div>
         </div>
     </div>
@@ -40,7 +33,7 @@ define('BASE_URL', 'http://' . $_SERVER['HTTP_HOST'] . '/gameon/');
     <!-- Sección sobre nosotros -->
     <section id="about" class="about-section">
         <div class="container">
-            <h2>¿Qué es el Sistema de recomendaciones de Instalaciones Deportivas con Geolocalización e IA del IPD-GameOn Network?</h2>
+            <h2>¿Qué es el Sistema de recomendaciones de Instalaciones Deportivas con Geolocalización - GameOn Network?</h2>
             <div class="about-content">
                 <div class="about-text">
                     <p>GameOn Network es la plataforma revolucionaria diseñada para conectar a deportistas con las instalaciones deportivas perfectas para sus necesidades. Facilitamos el acceso al deporte y la actividad física en Tacna, creando una comunidad deportiva conectada y activa.</p>
@@ -56,7 +49,7 @@ define('BASE_URL', 'http://' . $_SERVER['HTTP_HOST'] . '/gameon/');
     <!-- Sección de beneficios -->
     <section class="benefits-section">
         <div class="container">
-            <h2>¿Por qué elegir Sistema de recomendaciones de Instalaciones Deportivas con Geolocalización e IA del IPD-GameOn Network?</h2>
+            <h2>¿Por qué elegir Sistema de recomendaciones de Instalaciones Deportivas con Geolocalización - GameOn Network?</h2>
             <div class="benefits-grid">
                 <div class="benefit-card">
                     <i class="fas fa-search-location"></i>
@@ -72,11 +65,6 @@ define('BASE_URL', 'http://' . $_SERVER['HTTP_HOST'] . '/gameon/');
                     <i class="fas fa-users"></i>
                     <h3>Conecta con otros deportistas</h3>
                     <p>Encuentra compañeros de juego con tus mismos intereses y nivel, y disfruta más de tu deporte favorito.</p>
-                </div>
-                <div class="benefit-card">
-                    <i class="fas fa-trophy"></i>
-                    <h3>Participa en eventos</h3>
-                    <p>Descubre y únete a competencias locales, ligas y torneos organizados por nuestra comunidad.</p>
                 </div>
             </div>
         </div>
@@ -115,7 +103,7 @@ define('BASE_URL', 'http://' . $_SERVER['HTTP_HOST'] . '/gameon/');
         <div class="container">
             <div class="footer-content">
                 <div class="footer-logo">
-                    <h3>IPD - GameOn Network</h3>
+                    <h3>GameOn Network</h3>
                     <p>Conectando deportistas e instalaciones</p>
                 </div>
                 <div class="footer-links">
@@ -129,7 +117,7 @@ define('BASE_URL', 'http://' . $_SERVER['HTTP_HOST'] . '/gameon/');
                 </div>
                 <div class="footer-contact">
                     <h4>Contáctanos</h4>
-                    <p><i class="fas fa-envelope"></i> info@gameonnetwork.com</p>
+                    <p><i class="fas fa-envelope"></i> capicodex@gmail.com</p>
                     <p><i class="fas fa-phone"></i> +51 952 123 456</p>
                     <div class="social-icons">
                         <a href="#"><i class="fab fa-facebook-f"></i></a>

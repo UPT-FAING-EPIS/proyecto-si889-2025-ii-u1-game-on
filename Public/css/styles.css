@@ -1,9 +1,3 @@
-/* 
- * GameOn Network - Main CSS Styles
- * Colores principales: Verde (#25D366), Negro (#212121), Blanco (#FFFFFF), Celeste (#4FC3F7)
- */
-
-/* Reset y estilos generales */
 * {
   margin: 0;
   padding: 0;
@@ -117,14 +111,14 @@ section {
   color: #fff;
 }
 
-/* Video Hero Section */
-.video-container {
+/* Image Hero Section */
+.image-container {
   position: relative;
   height: 100vh;
   overflow: hidden;
 }
 
-#hero-video {
+#hero-image {
   position: absolute;
   top: 0;
   left: 0;
@@ -134,16 +128,6 @@ section {
   z-index: -1;
 }
 
-.overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.7);
-  z-index: 0;
-}
-
 .hero-content {
   position: relative;
   z-index: 1;
@@ -151,22 +135,10 @@ section {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  text-align: center;
+  align-items: flex-end;
+  text-align: right;
   color: #fff;
-  padding: 0 20px;
-}
-
-.hero-content h1 {
-  font-size: 4rem;
-  margin-bottom: 20px;
-  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
-}
-
-.hero-content p {
-  font-size: 1.5rem;
-  margin-bottom: 40px;
-  max-width: 700px;
+  padding: 0 60px;
 }
 
 .hero-buttons {
@@ -509,8 +481,10 @@ section {
     font-size: 2rem;
   }
   
-  .hero-content p {
-    font-size: 1.2rem;
+  .hero-content {
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
   }
   
   .about-content,
