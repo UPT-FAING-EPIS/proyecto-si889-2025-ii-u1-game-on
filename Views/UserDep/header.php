@@ -24,7 +24,7 @@
                     echo ($current_page === 'dashboard') ? 'class="active"' : ''; 
                 ?>>DASHBOARD</a></li>
                 <li><a href="insdepor.php" <?php echo ($current_page === 'insdepor') ? 'class="active"' : ''; ?>>INSTALACIONES DEPORTIVAS</a></li>
-                <li><a href="torneos.php" <?php echo ($current_page === 'torneos') ? 'class="active"' : ''; ?>>TORNEOS</a></li>
+                <!-- <li><a href="torneos.php" <?php echo ($current_page === 'torneos') ? 'class="active"' : ''; ?>>TORNEOS</a></li> -->
                 <li><a href="misequipos.php" <?php echo ($current_page === 'misequipos') ? 'class="active"' : ''; ?>>AMIGOS Y EQUIPOS</a></li>
                 <li><a href="reservas.php" <?php echo ($current_page === 'reservas') ? 'class="active"' : ''; ?>>RESERVAS</a></li>
             </ul>
